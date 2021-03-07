@@ -3,9 +3,7 @@ const inquirer = require("inquirer");
 const db = require("./db");
 require("console.table");
 
-init();
-
-function mainPrompts() {
+function init() {
   prompts ([
     {
       type: "list",
@@ -14,3 +12,5 @@ function mainPrompts() {
     }
   ])
 }
+
+init();
