@@ -7,7 +7,7 @@ require("console.table");
 
 init();
 
-function init() {
+function start() {
   const coolLogo = logo({ name: "Employee Tracker" }).render();
   console.log(coolLogo);
   mainPrompts();
