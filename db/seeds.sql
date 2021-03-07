@@ -18,7 +18,7 @@ VALUES
   ('Account Manager', 100000, 3), 
   ('Accountant', 80000, 3), 
   ('Legal Team Lead', 200000, 4), 
-  ('Lawyer', 100000, 4), 
+  ('Lawyer', 100000, 4);
 
 INSERT INTO employee
   (first_name, last_name, role_id, manager_id)
@@ -30,4 +30,4 @@ VALUES
   ('Thor', 'Thunder', 5, NULL),
   ('Loki', 'Asgard', 6, 5),
   ('The', 'Vision', 7, NULL),
-  ('Wanda', 'Maximoff', 8, 7),
+  ('Wanda', 'Maximoff', 8, 7);
